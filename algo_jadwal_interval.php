@@ -111,6 +111,11 @@ if ( isset($_POST['submit_jadwal']) ) {
 		text-align: center;
 		padding: 20px;
 	}
+  @media(max-width : 600px){
+    .container{
+      width: 100%;
+    }
+  }
 </style>
 </head>
 <body>
@@ -168,6 +173,7 @@ if ( isset($_POST['submit_jadwal']) ) {
 
 </body>
 </html>
+
 
 
 
